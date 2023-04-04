@@ -1,5 +1,5 @@
-const endDate = "4 April 2023 2:30:23 PM";
-
+// const endDate = document.getElementById("input-date").value;
+const endDate = "23 May 2023 5:00 PM";
 document.getElementById("end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 
@@ -21,4 +21,4 @@ setInterval(
         clock()
     },
     1000
-)
+) // Calls function every 1 second to update time

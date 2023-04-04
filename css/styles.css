@@ -24,10 +24,11 @@
 }
 
 .title {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .col {
@@ -40,6 +41,7 @@
     width: 250px;
     text-align: center;
     color: white;
+    margin-top: 10px;
 }
 
 input{
