@@ -1,5 +1,9 @@
 // const endDate = document.getElementById("input-date").value;
-const endDate = "23 May 2023 5:00 PM";
+let input = prompt("Enter date, month, year and time (e.g. 01 January 2022 5:00 PM):");
+
+let [date, month, year, time, amPm] = input.split(" ");
+
+const endDate = date+" "+month+" "+year+" "+time+" "+amPm;
 document.getElementById("end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 
