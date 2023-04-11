@@ -6,5 +6,4 @@ This is a simple countdown timer created using HTML, CSS, and JavaScript. It sho
 To run this project, download the source code and open the index.html file in a web browser.
 
 ## Usage
-The timer is pre-set to countdown to May 23, 2023, at 5:00 PM, but this can be changed by uncommenting the input field in the HTML and adding a date and time to the input.
-
+The timer can be set by providing the date and time in the correct format as mentioned in the input prompt which appears after loading the page. Once loaded, the page would show the date and time entered along with the countdown in days, hours, minutes and seconds.
